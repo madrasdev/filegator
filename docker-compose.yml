@@ -9,7 +9,7 @@ services:
     expose:
       - "80"
     volumes:
-      - "filegator_repository:/var/www/repository:rw"
+      - "repository:/var/www/repository:rw"
 
 volumes:
-  filegator_repository:
+  repository:
